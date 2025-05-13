@@ -1,0 +1,138 @@
+ /* thông báo */
+ .modal {
+     z-index: 11111;
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100vw;
+     height: 100vh;
+     background-color: rgba(0, 0, 0, 0.6);
+ }
+
+ .hide {
+     display: none;
+ }
+
+ .modal__inner {
+     width: 450px;
+     background-color: #fff;
+     border-radius: 5px;
+     overflow: hidden;
+     animation: showModal linear 0.2s;
+     position: relative;
+     margin: 200px auto;
+ }
+
+ @keyframes showModal {
+     from {
+         top: -200px;
+         opacity: 0;
+     }
+
+     to {
+         top: 0;
+         opacity: 1;
+     }
+ }
+
+ .modal__header {
+     background-color: #3CB815;
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 15px;
+     font-size: 17px;
+ }
+
+ .modal__body {
+     padding: 15px;
+ }
+
+ .modal__body h2 {
+     color: #3CB815;
+     margin-bottom: 10px;
+ }
+
+ .modal__footer {
+     padding: 15px;
+     text-align: right;
+ }
+
+ .modal__footer button {
+     outline: none;
+     border: none;
+     padding: 10px 20px;
+     background-color: #3CB815;
+     color: white;
+     border-radius: 6px;
+     cursor: pointer;
+ }
+
+ i {
+     cursor: pointer;
+     font-size: 18px;
+ }
+
+ /* thông báo đăng xuất */
+ .modals {
+     z-index: 11111;
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100vw;
+     height: 100vh;
+     background-color: rgba(0, 0, 0, 0.6);
+ }
+
+ .modals__inner {
+     width: 450px;
+     background-color: #fff;
+     border-radius: 5px;
+     overflow: hidden;
+     animation: showModal linear 0.2s;
+     position: relative;
+     margin: 200px auto;
+     /* top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%); */
+ }
+
+ .modals__header {
+     background-color: #3CB815;
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 15px;
+     font-size: 17px;
+ }
+
+ .modals__body {
+     padding: 15px;
+ }
+
+ .modals__body h2 {
+     font-family: sans-serif;
+     color: #3CB815;
+     margin-bottom: 10px;
+ }
+
+ .modals__footer {
+     padding: 15px;
+     text-align: right;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .modals__footer button,
+ .modals__footer a {
+     text-decoration: none;
+     outline: none;
+     border: none;
+     padding: 10px 20px;
+     background-color: #3CB815;
+     color: white;
+     border-radius: 6px;
+     cursor: pointer;
+ }

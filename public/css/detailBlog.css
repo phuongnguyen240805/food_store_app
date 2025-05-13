@@ -1,0 +1,147 @@
+/*---------------------
+  Blog Details Hero
+-----------------------*/
+
+.blog-details-hero {
+    height: 350px;
+    display: flex;
+    align-items: center;
+}
+
+.blog__details__hero__text {
+    text-align: center;
+}
+
+.blog__details__hero__text h2 {
+    font-size: 46px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.blog__details__hero__text ul li {
+    font-size: 16px;
+    color: #ffffff;
+    list-style: none;
+    display: inline-block;
+    margin-right: 45px;
+    position: relative;
+}
+
+.blog__details__hero__text ul li:after {
+    position: absolute;
+    right: -26px;
+    top: 0;
+    content: "|";
+}
+
+.blog__details__hero__text ul li:last-child {
+    margin-right: 0;
+}
+
+.blog__details__hero__text ul li:last-child:after {
+    display: none;
+}
+
+/*---------------------
+  Blog Details
+-----------------------*/
+
+.related-blog {
+    padding-top: 70px;
+    padding-bottom: 10px;
+}
+
+.related-blog-title {
+    margin-bottom: 70px;
+}
+
+.blog-details {
+    padding-bottom: 75px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.blog__details__text {
+    margin-bottom: 45px;
+}
+
+.blog__details__text img {
+    margin-bottom: 30px;
+    width: 856px;
+    height: 240px;
+    object-fit: cover;
+}
+
+.blog__details__text p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.blog__details__text h3 {
+    color: #333333;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.blog__details__author__pic {
+    float: left;
+    margin-right: 15px;
+}
+
+.blog__details__author__pic img {
+    height: 92px;
+    width: 92px;
+    border-radius: 50%;
+}
+
+.blog__details__author__text {
+    overflow: hidden;
+    padding-top: 30px;
+}
+
+.blog__details__author__text h6 {
+    color: #1c1c1c;
+    font-weight: 700;
+}
+
+.blog__details__author__text span {
+    font-size: 16px;
+    color: #6f6f6f;
+}
+
+.blog__details__widget ul {
+    margin-bottom: 5px;
+}
+
+.blog__details__widget ul li {
+    font-size: 16px;
+    color: #6f6f6f;
+    list-style: none;
+    line-height: 30px;
+}
+
+.blog__details__widget ul li span {
+    color: #1c1c1c;
+    font-weight: 700;
+}
+
+.blog__details__widget .blog__details__social a {
+    display: inline-block;
+    font-size: 20px;
+    color: #6f6f6f;
+    margin-right: 24px;
+    -webkit-transition: all, 0.3s;
+    -moz-transition: all, 0.3s;
+    -ms-transition: all, 0.3s;
+    -o-transition: all, 0.3s;
+    transition: all, 0.3s;
+}
+
+.blog__details__widget .blog__details__social a:hover {
+    color: #7fad39;
+}
+
+.blog__details__widget .blog__details__social a:last-child {
+    margin-right: 0;
+}

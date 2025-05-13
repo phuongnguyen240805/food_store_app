@@ -1,0 +1,27 @@
+phía client {
+-đăng kí, đăng nhập, đăng xuất (xong)
+
+-hiển thị sản phẩm trang chủ (xong)
+
+-tìm kiểm sản phẩm (xong)
+
+-hiển thị sản phẩm, phân trang trang vegetable (xong)
+
+-hiển thị sản phẩm, phân trang trang fresh (xong)
+
+-hiển thị sản phẩm, phân trang trang fruit (xong)
+
+-hiển thị trang chi tiết sản phẩm (xong)
+
+-giỏ hàng(hiển thị, update số lượng, xóa sản phẩm trong giỏ hàng, đặt hàng, cập nhập số lượng trong kho)
+
+-trang blog (xong) 
+
+-cài đặt
+}
+
+-admin (ý)
+    + đăng nhập admin
+    + hiển thị danh mục sản phẩm, có tìm kiếm bằng javascript
+    + nhấn vào hiển thị chi tiết sản phẩm, có các chức năng(thêm, sửa, xóa sản phẩm)
+    + trang blog
